@@ -30,3 +30,7 @@ classDiagram
     Iphone implements ReprodutorMusical
     Iphone implements AparelhoTelefonico
     Iphone implements NavegadorInternet
+
+    ReprodutorMusical <|-- Iphone
+    AparelhoTelefonico <|-- Iphone
+    NavegadorInternet <|-- Iphone

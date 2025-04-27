@@ -25,7 +25,7 @@
             System.out.println("Selecionando música " + musica + "...");
         }
         @Override
-        public void exibirPagina() {
+        public void exibirPagina(String url) {
             System.out.println("Exibindo página da internet...");
         }
         @Override

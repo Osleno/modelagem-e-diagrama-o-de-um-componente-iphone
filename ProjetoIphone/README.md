@@ -19,7 +19,7 @@ classDiagram
     }
 
     class NavegadorInternet {
-        +exibirPagina()
+        +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
     }
